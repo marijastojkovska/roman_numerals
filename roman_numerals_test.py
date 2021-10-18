@@ -6,3 +6,6 @@ def test_convert_one():
 
 def test_convert_two():
     assert convert_to_roman_numeral(2) == 'II'
+
+def test_convert_three():
+    assert convert_to_roman_numeral(3) == 'III'
