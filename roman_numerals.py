@@ -3,5 +3,19 @@ def convert_to_roman_numeral(x):
         return 'I'
     elif x==2:
         return 'II'
-    else:
+    elif x==3:
         return 'III'
+    elif x==4:
+        return 'IV'
+    elif x==5:
+        return 'V'
+    elif x==6:
+        return 'VI'
+    elif x==7:
+        return 'VII'
+    elif x==8:
+        return 'VIII'
+    elif x==9:
+        return 'IX'
+    else:
+        return 'X'
